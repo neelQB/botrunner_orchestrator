@@ -1,0 +1,9 @@
+version: "4.45.0"
+services:
+  qdrant:
+    image: qdrant/qdrant
+    container_name: qdrant
+    ports:
+      - "6333:6333"
+    volumes:
+      - ./data:/qdrant/storage
