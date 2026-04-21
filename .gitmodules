@@ -1,0 +1,3 @@
+[submodule "botrunner_ui"]
+	path = botrunner_ui
+	url = https://github.com/neelQB/botrunner_ui
